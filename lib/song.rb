@@ -15,7 +15,7 @@ attr_accessor :song, :artist, :name
   def self.new_by_filename(filename)
     array = filename.split(" - ")
     Song.new(array[1])
-    
+    self.artist = array[0]
   end
 
   
