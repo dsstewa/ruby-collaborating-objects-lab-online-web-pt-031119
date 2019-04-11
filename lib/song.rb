@@ -18,7 +18,7 @@ attr_accessor :song, :artist, :name
     #new_song.artist = array[0]
     #new_song
 
-  
+end
   
 end
 
