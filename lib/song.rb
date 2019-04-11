@@ -16,8 +16,8 @@ attr_accessor :song, :artist, :name
     array = filename.split(" - ")
     new_song = Song.new(array[1])
     new_song.artist = array[0]
-    binding.pry
-    new_song
+    #binding.pry
+    return new_song
   end
   
 end
