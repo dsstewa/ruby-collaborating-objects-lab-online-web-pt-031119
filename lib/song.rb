@@ -17,7 +17,7 @@ attr_accessor :song, :artist, :name
     new_song = Song.new(array[1])
     artist = Artist.new(array[0])
     new_song.artist = artist
-    #binding.pry
+    binding.pry
     new_song
   end
   
